@@ -1,0 +1,10 @@
+[info]
+name = "exitsnoop"
+object = "bin/exitsnoop"
+
+[[bind]]
+name = "exit_event_rb"
+kind = "ring_buf"
+
+[bind.opts]
+btf_struct = "exit_event"
